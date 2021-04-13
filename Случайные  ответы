@@ -1,0 +1,36 @@
+import random
+
+name = "Ivan"
+
+question = "Я стану хорошим програмистом ?"
+
+answer = ""
+
+random_number = random.randint(1, 10)
+print(random_number)
+
+if random_number == 1:
+  answer = "Да"
+elif random_number == 2:
+  answer = "Ну возможно"
+elif random_number == 3:
+  answer = "Так точно"
+elif random_number == 4:
+  answer = "Сомневаюсь"
+elif random_number == 5:
+  answer = "Скорее всего"
+elif random_number == 6:
+  answer = "Безпроблем"
+elif random_number == 7:
+  answer = "Конечно"
+elif random_number == 8:
+  answer = "Даже не знаю что сказать"
+elif random_number == 9:
+  answer = "Надо подумать,спроси посже"
+elif random_number == 10:
+  answer = "Не недумаю, шучу конечно)"
+else:
+  answer = "Error"
+
+print(name + " спрашивает: " + question)  
+print("Волшебный шар Мацик : " + answer)
